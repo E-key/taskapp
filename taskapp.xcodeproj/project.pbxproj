@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5257858A08BCCCACE8347AFC /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554E34FBA7343B6EE8E11318 /* Pods_taskapp.framework */; };
+		AF15F36525D11D1800DAFCEF /* CustomCellClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15F36325D11D1800DAFCEF /* CustomCellClass.swift */; };
+		AF15F36625D11D1800DAFCEF /* CustomCellClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF15F36425D11D1800DAFCEF /* CustomCellClass.xib */; };
+		AF25EAF425CA73F1003AB502 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25EAF325CA73F1003AB502 /* Task.swift */; };
 		AF2A29F325C962CC00278907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A29F225C962CC00278907 /* AppDelegate.swift */; };
 		AF2A29F525C962CC00278907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A29F425C962CC00278907 /* SceneDelegate.swift */; };
 		AF2A29F725C962CC00278907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A29F625C962CC00278907 /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		554E34FBA7343B6EE8E11318 /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		560235917303AA39A11E7C85 /* Pods-taskapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.debug.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF15F36325D11D1800DAFCEF /* CustomCellClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellClass.swift; sourceTree = "<group>"; };
+		AF15F36425D11D1800DAFCEF /* CustomCellClass.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellClass.xib; sourceTree = "<group>"; };
+		AF25EAF325CA73F1003AB502 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		AF2A29EF25C962CB00278907 /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2A29F225C962CC00278907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2A29F425C962CC00278907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +56,6 @@
 				560235917303AA39A11E7C85 /* Pods-taskapp.debug.xcconfig */,
 				BD0C2B44BD1C64D63F398A8D /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,7 +84,10 @@
 				AF2A29F425C962CC00278907 /* SceneDelegate.swift */,
 				AF2A29F625C962CC00278907 /* ViewController.swift */,
 				AF2A2A0625C9684B00278907 /* InputViewController.swift */,
+				AF15F36325D11D1800DAFCEF /* CustomCellClass.swift */,
+				AF15F36425D11D1800DAFCEF /* CustomCellClass.xib */,
 				AF2A29F825C962CC00278907 /* Main.storyboard */,
+				AF25EAF325CA73F1003AB502 /* Task.swift */,
 				AF2A29FB25C962CE00278907 /* Assets.xcassets */,
 				AF2A29FD25C962CE00278907 /* LaunchScreen.storyboard */,
 				AF2A2A0025C962CE00278907 /* Info.plist */,
@@ -156,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2A29FF25C962CE00278907 /* LaunchScreen.storyboard in Resources */,
+				AF15F36625D11D1800DAFCEF /* CustomCellClass.xib in Resources */,
 				AF2A29FC25C962CE00278907 /* Assets.xcassets in Resources */,
 				AF2A29FA25C962CC00278907 /* Main.storyboard in Resources */,
 			);
@@ -212,7 +221,9 @@
 			files = (
 				AF2A29F725C962CC00278907 /* ViewController.swift in Sources */,
 				AF2A29F325C962CC00278907 /* AppDelegate.swift in Sources */,
+				AF25EAF425CA73F1003AB502 /* Task.swift in Sources */,
 				AF2A29F525C962CC00278907 /* SceneDelegate.swift in Sources */,
+				AF15F36525D11D1800DAFCEF /* CustomCellClass.swift in Sources */,
 				AF2A2A0725C9684B00278907 /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
